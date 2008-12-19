@@ -12,11 +12,11 @@
 >
  <name>Services_GeoNames</name>
  <channel>pear.php.net</channel>
- <summary>A PHP interface to the GeoNames public API</summary>
+ <summary>A PHP5 interface to the GeoNames public API</summary>
  <description>
  <![CDATA[
-Services_GeoNames is a PHP interface to the various webservices offered by the 
-GeoNames project.
+Services_GeoNames is a PHP5 interface to the various webservices offered by
+the GeoNames project.
 
 The GeoNames database contains over 8,000,000 geographical names corresponding 
 to over 6,500,000 unique features. All features are categorized into one out 

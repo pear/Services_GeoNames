@@ -1,0 +1,18 @@
+{"weatherObservation": {
+  "clouds": "few clouds",
+  "weatherCondition": "n/a",
+  "observation": "LSZH 111320Z 29003KT 4000 -SN FEW004 SCT012 BKN050 01/M01 Q1009 886202// TEMPO 3000",
+  "windDirection": 290,
+  "ICAO": "LSZH",
+  "elevation": 432,
+  "countryCode": "CH",
+  "lng": 8.51666666666667,
+  "temperature": "1",
+  "dewPoint": "-1",
+  "windSpeed": "03",
+  "humidity": 86,
+  "stationName": "Zurich-Kloten",
+  "datetime": "2008-12-11 13:20:00",
+  "lat": 47.4666666666667,
+  "hectoPascAltimeter": 1009
+}}

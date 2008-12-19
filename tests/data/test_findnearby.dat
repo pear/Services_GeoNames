@@ -1,0 +1,16 @@
+{"geonames": [{
+  "countryName": "France",
+  "adminCode1": "A8",
+  "fclName": "city, village,...",
+  "countryCode": "FR",
+  "lng": 2.3488,
+  "fcodeName": "capital of a political entity",
+  "distance": "1.3984",
+  "fcl": "P",
+  "name": "Paris",
+  "fcode": "PPLC",
+  "geonameId": 2988507,
+  "lat": 48.85341,
+  "population": 2138551,
+  "adminName1": "Île-de-France"
+}]}

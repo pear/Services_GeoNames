@@ -45,9 +45,22 @@ class Services_GeoNames_Exception extends PEAR_Exception
 {
 }
 
-
 /**
  * Class for HTTP exceptions raised by the Services_GeoNames package.
+ * This specific exception allows the user to retrieve the error response
+ * returned by the server, for example:
+ *
+ * <code>
+ * try {
+ *     $geonames = new Services_GeoNames();
+ *     $geonames->someMethod();
+ * } catch (Services_GeoNames_HTTPException $exc) {
+ *     // HTTP error...
+ *     $response = $exc->response;
+ * } catch (Services_GeoNames_Exception $exc) {
+ *     // API error handling ...
+ * }
+ * </code>
  *
  * @category  Services
  * @package   Services_GeoNames

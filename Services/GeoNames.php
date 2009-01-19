@@ -117,26 +117,34 @@ class Services_GeoNames
      * (proxy, auth etc...) with the get/setRequest() methods.
      *
      * @var HTTP_Request2 $request
+     * @see Services_GeoNames::getRequest()
+     * @see Services_GeoNames::setRequest()
      */
     protected $request;
 
     /**
-     * Auth username, for commercial webservices only.
+     * Auth username, only relevant for the geonames commercial web services:
+     * {@link http://www.geonames.org/commercial-webservices.html}
      *
      * @var string $username
+     * @see Services_GeoNames::__construct()
      */
     protected $username;
 
     /**
-     * Auth token, for commercial webservices only.
+     * Auth token, only relevant for the geonames commercial web services:
+     * {@link http://www.geonames.org/commercial-webservices.html}
      *
      * @var string $token
+     * @see Services_GeoNames::__construct()
      */
     protected $token;
 
     /**
      * Array of supported endpoints (listed alphabetically) and their 
-     * corresponding root property (if any).
+     * corresponding root property (if any). You can retrieve the list of 
+     * endpoints (only the keys of this array) with the 
+     * Services_GeoNames::getSupportedEndpoints() method.
      * 
      * Note that we only support json endpoints, so the following endpoints are
      * not supported:
@@ -147,6 +155,7 @@ class Services_GeoNames
      * see: {@link http://www.geonames.org/export/ws-overview.html}.
      *
      * @var array $endpoints
+     * @see Services_GeoNames::getSupportedEndpoints()
      */
     protected $endpoints = array(
         'children'                => 'geonames',
@@ -285,7 +294,7 @@ class Services_GeoNames
     protected function sendRequest($url)
     {
         try {
-            $request = $this->getRequest();
+            $request = clone $this->getRequest();
             $request->setUrl($url);
             $response = $request->send();
         } catch (HTTP_Request2_Exception $exc) {
@@ -311,7 +320,7 @@ class Services_GeoNames
      * Builds a valid query string (url and utf8 encoded) to pass to the 
      * endpoint and returns it.
      * 
-     * @param array $params Array of arguments
+     * @param array $params Associative array of query parameters (name=>val)
      * 
      * @return string The formatted query string
      */
@@ -334,9 +343,11 @@ class Services_GeoNames
     // getRequest() {{{
     
     /**
-     * Returns the HTTP_Request2 instance.
+     * Returns the HTTP_Request2 instance, if it's not yet set it is 
+     * instanciated on the fly.
      * 
      * @return HTTP_Request2 The request
+     * @see Services_GeoNames::$request
      */
     public function getRequest()
     {
@@ -355,6 +366,7 @@ class Services_GeoNames
      * @param HTTP_Request2 $request The request to set
      *
      * @return void
+     * @see Services_GeoNames::$request
      */
     public function setRequest(HTTP_Request2 $request)
     {
@@ -368,6 +380,7 @@ class Services_GeoNames
      * Returns an array of supported services endpoints.
      * 
      * @return array The endpoints array
+     * @see Services_GeoNames::$endpoints
      */
     public function getSupportedEndpoints()
     {

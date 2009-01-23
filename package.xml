@@ -42,10 +42,10 @@ For more information please visit:
   <email>izimobil@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2008-12-19</date>
+ <date>2009-01-23</date>
  <version>
-  <release>0.2.2</release>
-  <api>0.2.2</api>
+  <release>0.2.3</release>
+  <api>0.2.3</api>
  </version>
  <stability>
   <release>beta</release>
@@ -53,9 +53,35 @@ For more information please visit:
  </stability>
  <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
  <notes>
-* added getter/setter for request (now protected),
-* better exceptions management,
-* better tests layout/coverage.
+<![CDATA[
+* clone the HTTP_Request2 instance instead of the reusing the same instance,
+* ability to set an array of failover servers,
+* better doc strings and various cosmetic changes.
+
+Important note
+==============
+From http://www.geonames.org/export/ :
+"We have temporarily removed the domain ws.geonames.org from the dns setting to
+protect the server from exessive use by an iphone application. You can access
+the server with the domain ws5.geonames.org"
+
+So until ws.geonames.org is not restored, you'll have to do either:
+<?php
+require_once 'Services/GeoNames.php';
+
+$geo = new Services_GeoNames();
+$geo->url = 'http://ws5.geonames.org';
+?>
+
+or:
+
+<?php
+require_once 'Services/GeoNames.php';
+
+$geo = new Services_GeoNames();
+$geo->failoverServers[] = 'http://ws5.geonames.org';
+?>
+]]>
  </notes>
  <contents>
   <dir name="/">
@@ -92,6 +118,8 @@ For more information please visit:
    <file name="tests/test_other_03.phpt" role="test" />
    <file name="tests/test_other_04.phpt" role="test" />
    <file name="tests/test_other_05.phpt" role="test" />
+   <file name="tests/test_other_06.phpt" role="test" />
+   <file name="tests/test_other_07.phpt" role="test" />
    <file name="tests/test_postalcodecountryinfo.phpt" role="test" />
    <file name="tests/test_postalcodelookup.phpt" role="test" />
    <file name="tests/test_postalcodesearch.phpt" role="test" />
@@ -123,6 +151,7 @@ For more information please visit:
    <file name="tests/data/test_neighbourhood.dat" role="test" />
    <file name="tests/data/test_neighbours.dat" role="test" />
    <file name="tests/data/test_other_03.dat" role="test" />
+   <file name="tests/data/test_other_06.dat" role="test" />
    <file name="tests/data/test_postalcodecountryinfo.dat" role="test" />
    <file name="tests/data/test_postalcodelookup.dat" role="test" />
    <file name="tests/data/test_postalcodesearch.dat" role="test" />
@@ -203,6 +232,24 @@ For more information please visit:
 * better exceptions management,
 * added missing tests and make tests run with a mock adapter,
 * some docstring fixes.
+   </notes>
+  </release>
+
+  <!-- version 0.2.2 -->
+  <release>
+   <version>
+    <release>0.2.2</release>
+    <api>0.2.2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+* added getter/setter for request (now protected),
+* better exceptions management,
+* better tests layout/coverage.
    </notes>
   </release>
 

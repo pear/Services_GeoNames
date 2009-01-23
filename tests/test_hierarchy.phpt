@@ -96,7 +96,7 @@ Array
 
                     [12] => stdClass Object
                         (
-                            [name] => Mundo
+                            [name] => el planeta
                             [lang] => es
                         )
 
@@ -110,7 +110,7 @@ Array
 
             [countryName] => 
             [fclName] => parks,area, ...
-            [lng] => 9.00266826153
+            [lng] => 0
             [adminName2] => 
             [adminName3] => 
             [fcodeName] => 
@@ -126,7 +126,7 @@ Array
             [name] => Globe
             [fcode] => 
             [geonameId] => 6295630
-            [lat] => 46.0130881764
+            [lat] => 0
             [population] => 0
             [adminName1] => 
         )

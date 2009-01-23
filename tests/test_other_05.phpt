@@ -4,8 +4,8 @@ Test for other code parts 05
 <?php
 require_once 'Services/GeoNames.php';
 
-Services_GeoNames::$url = 'blah blah...';
 $geo = new Services_GeoNames();
+$geo->url = 'Some invalid url...';
 try {
     $ret = $geo->search(array('q' => 'kjhkjhkjh'));
 } catch (Services_GeoNames_HTTPException $exc) {

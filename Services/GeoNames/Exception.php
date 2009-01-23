@@ -13,10 +13,10 @@
  *
  * @category  Services
  * @package   Services_GeoNames
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2008 David JEAN LOUIS
+ * @author    David Jean Louis <izi@php.net>
+ * @copyright 2008-2009 David Jean Louis
  * @license   http://opensource.org/licenses/mit-license.php MIT License 
- * @version   SVN: $Id$
+ * @version   CVS: $Id$
  * @link      http://pear.php.net/package/Services_GeoNames
  * @link      http://www.geonames.org/export/webservice-exception.html
  * @since     File available since release 0.1.0
@@ -33,8 +33,8 @@ require_once 'PEAR/Exception.php';
  *
  * @category  Services
  * @package   Services_GeoNames
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2008 David JEAN LOUIS
+ * @author    David Jean Louis <izi@php.net>
+ * @copyright 2008-2009 David Jean Louis
  * @license   http://opensource.org/licenses/mit-license.php MIT License 
  * @version   Release: @package_version@
  * @link      http://pear.php.net/package/Services_GeoNames
@@ -64,8 +64,8 @@ class Services_GeoNames_Exception extends PEAR_Exception
  *
  * @category  Services
  * @package   Services_GeoNames
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2008 David JEAN LOUIS
+ * @author    David Jean Louis <izi@php.net>
+ * @copyright 2008-2009 David Jean Louis
  * @license   http://opensource.org/licenses/mit-license.php MIT License 
  * @version   Release: @package_version@
  * @link      http://pear.php.net/package/Services_GeoNames

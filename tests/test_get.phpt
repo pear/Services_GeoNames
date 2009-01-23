@@ -157,7 +157,7 @@ stdClass Object
     [countryName] => 
     [adminCode1] => 20
     [fclName] => parks,area, ...
-    [lng] => 9.00266826153
+    [lng] => 0
     [adminName2] => 
     [adminName3] => 
     [fcodeName] => 
@@ -173,7 +173,7 @@ stdClass Object
     [name] => Globe
     [fcode] => 
     [geonameId] => 6295630
-    [lat] => 46.0130881764
+    [lat] => 0
     [population] => 0
     [adminName1] => null.20
 )

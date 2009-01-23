@@ -4,12 +4,13 @@ Test for other code parts 04
 <?php
 require_once dirname(__FILE__) . '/setup.php';
 
-Services_GeoNames::$url = 'http://www.example.com/';
 $geo = Services_GeoNames_factory(
     substr(basename(__FILE__), 0, -4),
     'username',
     'auth_token'
 );
+$geo->url = 'http://www.example.com/';
+
 try {
     $ret = $geo->search(array('q' => 'kjhkjhkjh'));
 } catch (Services_GeoNames_Exception $exc) {

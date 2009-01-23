@@ -13,10 +13,10 @@
  *
  * @category  Services 
  * @package   Services_GeoNames
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007 David JEAN LOUIS
+ * @author    David Jean Louis <izi@php.net>
+ * @copyright 2008-2009 David Jean Louis
  * @license   http://opensource.org/licenses/mit-license.php MIT License 
- * @version   SVN: $Id$
+ * @version   CVS: $Id$
  * @link      http://pear.php.net/package/Services_GeoNames
  * @since     File available since release 0.1.0
  */
@@ -42,14 +42,20 @@ function Services_GeoNames_factory($testname, $user = null, $token = null)
 
     if (!getenv('SERVICES_GEONAMES_LIVETEST')) {
         // test with a mock adapter
-        if (Services_GeoNames::$url == 'http://www.example.com/') {
+        $mock = new HTTP_Request2_Adapter_Mock();
+        if ($testname == 'test_other_04') {
+            $resp = new HTTP_Request2_Response('HTTP/1.1 404 Not Found', false);
+        } else if ($testname == 'test_other_07') {
+            $resp = new HTTP_Request2_Response('HTTP/1.1 404 Not Found', false);
+            $mock->addResponse($resp);
+            $resp = new HTTP_Request2_Response('HTTP/1.1 404 Not Found', false);
+            $mock->addResponse($resp);
             $resp = new HTTP_Request2_Response('HTTP/1.1 404 Not Found', false);
         } else {
             $resp = new HTTP_Request2_Response('HTTP/1.1 200 Success', false);
             $file = dirname(__FILE__) . '/data/' . $testname . '.dat';
             $resp->appendBody(file_get_contents($file));
         }
-        $mock = new HTTP_Request2_Adapter_Mock();
         $mock->addResponse($resp);
         $geo->getRequest()->setAdapter($mock);
     }

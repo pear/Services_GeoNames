@@ -13,10 +13,10 @@
  *
  * @category  Services
  * @package   Services_GeoNames
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2008 David JEAN LOUIS
+ * @author    David Jean Louis <izi@php.net>
+ * @copyright 2008-2009 David Jean Louis
  * @license   http://opensource.org/licenses/mit-license.php MIT License 
- * @version   SVN: $Id$
+ * @version   CVS: $Id$
  * @link      http://pear.php.net/package/Services_GeoNames
  * @link      http://www.geonames.org/export/web-services.html
  * @since     File available since release 0.1.0
@@ -35,8 +35,8 @@ require_once 'HTTP/Request2.php';
  *
  * @category  Services
  * @package   Services_GeoNames
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2008 David JEAN LOUIS
+ * @author    David Jean Louis <izi@php.net>
+ * @copyright 2008-2009 David Jean Louis
  * @license   http://opensource.org/licenses/mit-license.php MIT License 
  * @version   Release: @package_version@
  * @link      http://pear.php.net/package/Services_GeoNames
@@ -106,11 +106,18 @@ class Services_GeoNames
 
     /**
      * Url of the GeoNames web service.
-     * This should not change but anyway we make it public.
      *
      * @var string $url
      */
-    public static $url = 'http://ws.geonames.org';
+    public $url = 'http://ws.geonames.org';
+
+    /**
+     * Array of failover servers.
+     *
+     * @var array $failoverServers
+     * @see Services_GeoNames::sendRequest()
+     */
+    public $failoverServers = array();
 
     /**
      * The HTTP_Request2 instance, you can customize the request if you want to 
@@ -230,7 +237,7 @@ class Services_GeoNames
     public function __call($endpoint, $params = array())
     {
         // check that endpoint is supported
-        if (!in_array($endpoint, array_keys($this->endpoints))) {
+        if (!in_array($endpoint, $this->getSupportedEndpoints())) {
             throw new Services_GeoNames_Exception(
                 'Unknown service endpoint "' . $endpoint . '"',
                 self::UNSUPPORTED_ENDPOINT
@@ -249,6 +256,8 @@ class Services_GeoNames
             // we only do json
             unset($params['type']);
         }
+
+        // manage authentication to commercial webservice
         if ($this->username !== null) {
             $params['username'] = $this->username;
         }
@@ -258,8 +267,8 @@ class Services_GeoNames
 
         // build the url and retrieve the result
         $qString = $this->formatQueryString($params);
-        $url     = self::$url . '/' . $endpoint . 'JSON?' . $qString;
-        $ret     = json_decode($this->sendRequest($url));
+        $urlPath = '/' . $endpoint . 'JSON?' . $qString;
+        $ret     = json_decode($this->sendRequest($urlPath));
 
         // check if we have a error response
         if (isset($ret->status->message) && isset($ret->status->value)) {
@@ -270,7 +279,7 @@ class Services_GeoNames
         }
         
         // remove useless root property, to make the result more user friendly
-        if ($this->endpoints[$endpoint] !== false) {
+        if ($this->endpoints[$endpoint] !== false && $ret instanceof stdclass) {
             $prop = $this->endpoints[$endpoint];
             $ret  = $ret->$prop;
         }
@@ -283,7 +292,7 @@ class Services_GeoNames
     /**
      * Sends the request to the server using HTTP_Request2. 
      * 
-     * @param string $url The full service url (url + endpoint + query string)
+     * @param string $urlPath The url path *without* the scheme://host
      * 
      * @return string The response body
      * @throws HTTP_Request2_Exception
@@ -291,25 +300,49 @@ class Services_GeoNames
      *                                         building the request or 
      *                                         requesting the server.
      */
-    protected function sendRequest($url)
+    protected function sendRequest($urlPath)
     {
-        try {
-            $request = clone $this->getRequest();
-            $request->setUrl($url);
-            $response = $request->send();
-        } catch (HTTP_Request2_Exception $exc) {
-            throw new Services_GeoNames_HTTPException(
-                $exc->getMessage(),
-                $exc // the original exception cause
-            );
+        $exceptionStack = array();
+        $response       = null;
+        array_unshift($this->failoverServers, $this->url);
+
+        foreach ($this->failoverServers as $server) { 
+            try {
+                $request = clone $this->getRequest();
+                $request->setUrl(rtrim($server, '/') . $urlPath);
+                $response = $request->send();
+            } catch (Exception $exc) {
+                $exceptionStack[] =  new Services_GeoNames_HTTPException(
+                    $exc->getMessage(),
+                    $exc
+                );
+                continue;
+            }
+            if ($response->getStatus() != 200) {
+                $exceptionStack[] = new Services_GeoNames_HTTPException(
+                    $response->getReasonPhrase(),
+                    $response->getStatus(),
+                    $response
+                );
+                // reset the response variable since it's not a valid one
+                $response = null;
+            } else {
+                break;
+            }
         }
-        if ($response->getStatus() != 200) {
-            throw new Services_GeoNames_HTTPException(
-                $response->getReasonPhrase(),
-                $response->getStatus(),
-                $response
-            );
+
+        if ($response == null && !empty($exceptionStack)) {
+            $lastException = $exceptionStack[count($exceptionStack)-1];
+            if (count($exceptionStack) == 1) {
+                throw $lastException;
+            } else {
+                throw new Services_GeoNames_HTTPException(
+                    $lastException->getMessage(),
+                    $exceptionStack
+                );
+            }
         }
+
         return $response->getBody();
     }
     

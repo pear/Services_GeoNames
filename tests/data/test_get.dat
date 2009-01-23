@@ -92,7 +92,7 @@
   "countryName": "",
   "adminCode1": "20",
   "fclName": "parks,area, ...",
-  "lng": 9.00266826152802,
+  "lng": 0,
   "adminName2": "",
   "adminName3": "",
   "fcodeName": "",
@@ -106,7 +106,7 @@
   "name": "Globe",
   "fcode": "",
   "geonameId": 6295630,
-  "lat": 46.01308817645,
+  "lat": 0,
   "population": 0,
   "adminName1": "null.20"
 }

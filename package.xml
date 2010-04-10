@@ -42,46 +42,19 @@ For more information please visit:
   <email>izimobil@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2009-01-23</date>
+ <date>2010-04-10</date>
  <version>
-  <release>0.2.3</release>
-  <api>0.2.3</api>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
  </version>
  <stability>
-  <release>beta</release>
-  <api>beta</api>
+  <release>stable</release>
+  <api>stable</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
  <notes>
-<![CDATA[
-* clone the HTTP_Request2 instance instead of the reusing the same instance,
-* ability to set an array of failover servers,
-* better doc strings and various cosmetic changes.
-
-Important note
-==============
-From http://www.geonames.org/export/ :
-"We have temporarily removed the domain ws.geonames.org from the dns setting to
-protect the server from exessive use by an iphone application. You can access
-the server with the domain ws5.geonames.org"
-
-So until ws.geonames.org is not restored, you'll have to do either:
-<?php
-require_once 'Services/GeoNames.php';
-
-$geo = new Services_GeoNames();
-$geo->url = 'http://ws5.geonames.org';
-?>
-
-or:
-
-<?php
-require_once 'Services/GeoNames.php';
-
-$geo = new Services_GeoNames();
-$geo->failoverServers[] = 'http://ws5.geonames.org';
-?>
-]]>
+* fixed bug #17101: Unit tests fail (64 bit systems),
+* fixed package.xml to allow installation via pyrus.
  </notes>
  <contents>
   <dir name="/">
@@ -185,6 +158,7 @@ $geo->failoverServers[] = 'http://ws5.geonames.org';
 
   <!-- version 0.1.0 -->
   <release>
+   <date>2008-09-03</date>
    <version>
     <release>0.1.0</release>
     <api>0.1.0</api>
@@ -193,12 +167,12 @@ $geo->failoverServers[] = 'http://ws5.geonames.org';
     <release>beta</release>
     <api>beta</api>
    </stability>
-   <date>2008-09-03</date>
    <notes>Initial release.</notes>
   </release>
 
   <!-- version 0.2.0 -->
   <release>
+   <date>2008-12-10</date>
    <version>
     <release>0.2.0</release>
     <api>0.2.0</api>
@@ -207,7 +181,6 @@ $geo->failoverServers[] = 'http://ws5.geonames.org';
     <release>beta</release>
     <api>beta</api>
    </stability>
-   <date>2008-12-10</date>
    <notes>
 * use HTTP_Request2,
 * use JSON as exchange format,
@@ -217,6 +190,7 @@ $geo->failoverServers[] = 'http://ws5.geonames.org';
 
   <!-- version 0.2.1 -->
   <release>
+   <date>2008-12-11</date>
    <version>
     <release>0.2.1</release>
     <api>0.2.1</api>
@@ -237,6 +211,7 @@ $geo->failoverServers[] = 'http://ws5.geonames.org';
 
   <!-- version 0.2.2 -->
   <release>
+   <date>2008-12-19</date>
    <version>
     <release>0.2.2</release>
     <api>0.2.2</api>
@@ -250,6 +225,51 @@ $geo->failoverServers[] = 'http://ws5.geonames.org';
 * added getter/setter for request (now protected),
 * better exceptions management,
 * better tests layout/coverage.
+   </notes>
+  </release>
+
+  <!-- version 0.2.3 -->
+  <release>
+   <date>2009-01-23</date>
+   <version>
+    <release>0.2.3</release>
+    <api>0.2.3</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+<![CDATA[
+* clone the HTTP_Request2 instance instead of the reusing the same instance,
+* ability to set an array of failover servers,
+* better doc strings and various cosmetic changes.
+
+Important note
+==============
+From http://www.geonames.org/export/ :
+"We have temporarily removed the domain ws.geonames.org from the dns setting to
+protect the server from exessive use by an iphone application. You can access
+the server with the domain ws5.geonames.org"
+
+So until ws.geonames.org is not restored, you'll have to do either:
+<?php
+require_once 'Services/GeoNames.php';
+
+$geo = new Services_GeoNames();
+$geo->url = 'http://ws5.geonames.org';
+?>
+
+or:
+
+<?php
+require_once 'Services/GeoNames.php';
+
+$geo = new Services_GeoNames();
+$geo->failoverServers[] = 'http://ws5.geonames.org';
+?>
+]]>
    </notes>
   </release>
 

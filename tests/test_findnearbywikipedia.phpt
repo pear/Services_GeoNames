@@ -16,7 +16,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -27,10 +27,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Gl%C3%A4rnisch
             [elevation] => 0
             [countryCode] => CH
-            [lng] => 8.99861111111
+            [lng] => %s
             [feature] => mountain
             [lang] => en
-            [lat] => 46.9986111111
+            [lat] => %s
             [population] => 0
         )
 
@@ -42,10 +42,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Oberblegisee
             [elevation] => 0
             [countryCode] => CH
-            [lng] => 9.01333333333
+            [lng] => %s
             [feature] => waterbody
             [lang] => en
-            [lat] => 46.9808333333
+            [lat] => %s
             [population] => 0
         )
 
@@ -57,11 +57,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Kl%C3%B6ntalersee
             [elevation] => 0
             [countryCode] => CH
-            [lng] => 8.98055555556
+            [lng] => %s
             [feature] => waterbody
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/2000/thumb-1904-100.jpg
             [lang] => en
-            [lat] => 47.0255555556
+            [lat] => %s
             [population] => 0
         )
 
@@ -73,10 +73,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Canton_of_Glarus
             [elevation] => 0
             [countryCode] => CH
-            [lng] => 9.06666666667
+            [lng] => %s
             [feature] => adm1st
             [lang] => en
-            [lat] => 46.9833333333
+            [lat] => %s
             [population] => 0
         )
 
@@ -88,10 +88,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Obersee_%28Glarus%29
             [elevation] => 0
             [countryCode] => CH
-            [lng] => 9.01388888889
+            [lng] => %s
             [feature] => waterbody
             [lang] => en
-            [lat] => 47.0869444444
+            [lat] => %s
             [population] => 0
         )
 

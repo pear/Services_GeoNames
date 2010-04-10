@@ -1,0 +1,18 @@
+{"weatherObservation": {
+  "clouds": "few clouds",
+  "weatherCondition": "n/a",
+  "observation": "LELO 111330Z 28012KT 230V340 9999 FEW025 BKN050 06/02 Q1015",
+  "windDirection": 280,
+  "ICAO": "LELO",
+  "elevation": 363,
+  "countryCode": "ES",
+  "lng": -2.31666666666667,
+  "temperature": "6",
+  "dewPoint": "2",
+  "windSpeed": "12",
+  "humidity": 75,
+  "stationName": "Logrono / Agoncillo",
+  "datetime": "2008-12-11 13:30:00",
+  "lat": 42.45,
+  "hectoPascAltimeter": 1015
+}}

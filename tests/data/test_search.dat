@@ -1,0 +1,35 @@
+{
+  "totalResultsCount": 3118,
+  "geonames": [
+    {
+      "countryName": "Royaume-Uni",
+      "adminCode1": "ENG",
+      "fclName": "city, village,...",
+      "countryCode": "GB",
+      "lng": -0.125532746315002,
+      "fcodeName": "capital of a political entity",
+      "fcl": "P",
+      "name": "Londres",
+      "fcode": "PPLC",
+      "geonameId": 2643743,
+      "lat": 51.5084152563931,
+      "population": 7421209,
+      "adminName1": "Angleterre"
+    },
+    {
+      "countryName": "Canada",
+      "adminCode1": "08",
+      "fclName": "city, village,...",
+      "countryCode": "CA",
+      "lng": -81.233042387,
+      "fcodeName": "populated place",
+      "fcl": "P",
+      "name": "London",
+      "fcode": "PPL",
+      "geonameId": 6058560,
+      "lat": 42.983389283,
+      "population": 352395,
+      "adminName1": "Ontario"
+    }
+  ]
+}

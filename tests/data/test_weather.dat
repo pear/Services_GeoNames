@@ -1,0 +1,16 @@
+{"weatherObservations": [{
+  "clouds": "broken clouds",
+  "weatherCondition": "n/a",
+  "observation": "DNIB 110700Z 24005KT 6000 BKN011 25/24 Q1012",
+  "windDirection": 240,
+  "ICAO": "DNIB",
+  "lng": 3.88333333333333,
+  "temperature": "25",
+  "dewPoint": "24",
+  "windSpeed": "05",
+  "humidity": 94,
+  "stationName": "Ibadan",
+  "datetime": "2008-12-11 08:00:00",
+  "lat": 7.41666666666667,
+  "hectoPascAltimeter": 1012
+}]}

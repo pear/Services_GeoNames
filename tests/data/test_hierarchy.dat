@@ -1,0 +1,821 @@
+{"geonames": [
+  {
+    "alternateNames": [
+      {
+        "name": "Mondo",
+        "lang": "eo"
+      },
+      {
+        "name": "Aarde",
+        "lang": "nl"
+      },
+      {
+        "name": "Globe",
+        "lang": "en"
+      },
+      {
+        "name": "Orbs",
+        "lang": "la"
+      },
+      {
+        "name": "Земля",
+        "lang": "ru"
+      },
+      {
+        "name": "el món",
+        "lang": "ca"
+      },
+      {
+        "name": "Terra",
+        "lang": "it"
+      },
+      {
+        "name": "Pamânt",
+        "lang": "ro"
+      },
+      {
+        "name": "Terre",
+        "lang": "fr"
+      },
+      {
+        "name": "Föld",
+        "lang": "hu"
+      },
+      {
+        "name": "Lurra",
+        "lang": "eu"
+      },
+      {
+        "name": "Erde",
+        "lang": "de"
+      },
+      {
+        "name": "el planeta",
+        "lang": "es"
+      },
+      {
+        "name": "Maa",
+        "lang": "fi"
+      }
+    ],
+    "countryName": "",
+    "fclName": "parks,area, ...",
+    "lng": 0,
+    "adminName2": "",
+    "adminName3": "",
+    "fcodeName": "",
+    "adminName4": "",
+    "timezone": {
+      "dstOffset": 2,
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Zurich"
+    },
+    "fcl": "L",
+    "name": "Globe",
+    "fcode": "",
+    "geonameId": 6295630,
+    "lat": 0,
+    "population": 0,
+    "adminName1": ""
+  },
+  {
+    "alternateNames": [
+      {
+        "name": "ยุโรป",
+        "lang": "th"
+      },
+      {
+        "name": "欧洲",
+        "lang": "zh"
+      },
+      {
+        "name": "أوروبا",
+        "lang": "ar"
+      },
+      {
+        "name": "Europa",
+        "lang": "pt"
+      },
+      {
+        "name": "Europa",
+        "lang": "sv"
+      },
+      {
+        "name": "Europa",
+        "lang": "de"
+      },
+      {
+        "name": "Europa",
+        "lang": "pl"
+      },
+      {
+        "name": "Europa",
+        "lang": "da"
+      },
+      {
+        "name": "an Eoraip",
+        "lang": "ga"
+      },
+      {
+        "name": "Châu Âu",
+        "lang": "vi"
+      },
+      {
+        "name": "ヨーロッパ",
+        "lang": "ja"
+      },
+      {
+        "name": "Eurohpá",
+        "lang": "se"
+      },
+      {
+        "name": "Ewrop",
+        "lang": "cy"
+      },
+      {
+        "name": "Evropa",
+        "lang": "cs"
+      },
+      {
+        "name": "Europe",
+        "lang": "fr"
+      },
+      {
+        "name": "Europa",
+        "lang": "it"
+      },
+      {
+        "name": "Eiropa",
+        "lang": "lv"
+      },
+      {
+        "name": "Evrópa",
+        "lang": "is"
+      },
+      {
+        "name": "Europa",
+        "lang": "lt"
+      },
+      {
+        "name": "Европа",
+        "lang": "ru"
+      },
+      {
+        "name": "Eurooppa",
+        "lang": "fi"
+      },
+      {
+        "name": "Europa",
+        "lang": "ca"
+      },
+      {
+        "name": "Eropa",
+        "lang": "id"
+      },
+      {
+        "name": "Europa",
+        "lang": "la"
+      },
+      {
+        "name": "Evropa",
+        "lang": "bs"
+      },
+      {
+        "name": "Europa",
+        "lang": "eu"
+      },
+      {
+        "name": "Europa",
+        "lang": "es"
+      },
+      {
+        "name": "Európa",
+        "lang": "hu"
+      },
+      {
+        "name": "Eŭropo",
+        "lang": "eo"
+      },
+      {
+        "name": "Europe",
+        "lang": "en"
+      },
+      {
+        "name": "Ευρώπη",
+        "lang": "el"
+      },
+      {
+        "name": "Европа",
+        "lang": "bg"
+      },
+      {
+        "name": "Europa",
+        "lang": "no"
+      },
+      {
+        "name": "Avrupa",
+        "lang": "tr"
+      },
+      {
+        "name": "यूरोप",
+        "lang": "hi"
+      },
+      {
+        "name": "Europa",
+        "lang": "nl"
+      },
+      {
+        "name": "אירופה",
+        "lang": "he"
+      }
+    ],
+    "countryName": "",
+    "fclName": "parks,area, ...",
+    "lng": 9.140625,
+    "adminName2": "",
+    "adminName3": "",
+    "fcodeName": "continent",
+    "adminName4": "",
+    "timezone": {
+      "dstOffset": 2,
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Vaduz"
+    },
+    "fcl": "L",
+    "name": "Europe",
+    "fcode": "CONT",
+    "geonameId": 6255148,
+    "lat": 48.6909603909255,
+    "population": 0,
+    "adminName1": ""
+  },
+  {
+    "alternateNames": [
+      {
+        "name": "สวิตเซอร์แลนด์",
+        "lang": "th"
+      },
+      {
+        "name": "შვეიცარია",
+        "lang": "ka"
+      },
+      {
+        "name": "Sveits",
+        "lang": "nb"
+      },
+      {
+        "name": "སུའིཊ་ཛར་ལེན",
+        "lang": "dz"
+      },
+      {
+        "name": "瑞士",
+        "lang": "zh"
+      },
+      {
+        "name": "ஸ்விட்சர்லாந்து",
+        "lang": "ta"
+      },
+      {
+        "name": "سويسرا",
+        "lang": "ar"
+      },
+      {
+        "name": "ስዊዘርላንድ",
+        "lang": "am"
+      },
+      {
+        "name": "Svizzera",
+        "lang": "mt"
+      },
+      {
+        "name": "Uswisi",
+        "lang": "sw"
+      },
+      {
+        "name": "Switzerland",
+        "lang": "ms"
+      },
+      {
+        "name": "Suíça",
+        "lang": "pt"
+      },
+      {
+        "name": "Schweiz",
+        "lang": "sv"
+      },
+      {
+        "name": "سویس",
+        "lang": "ps"
+      },
+      {
+        "name": "Suíza",
+        "lang": "gl"
+      },
+      {
+        "name": "Швајцарска",
+        "lang": "sr"
+      },
+      {
+        "name": "Switserland",
+        "lang": "af"
+      },
+      {
+        "name": "Zvicër",
+        "lang": "sq"
+      },
+      {
+        "name": "സ്വിറ്റ്സര്‍ലന്‍ഡ്",
+        "lang": "ml"
+      },
+      {
+        "name": "Швајцарија",
+        "lang": "mk"
+      },
+      {
+        "name": "Swiiserlaand",
+        "lang": "so"
+      },
+      {
+        "name": "Schweiz",
+        "lang": "de"
+      },
+      {
+        "name": "Szwajcaria",
+        "lang": "pl"
+      },
+      {
+        "name": "Švica",
+        "lang": "sl"
+      },
+      {
+        "name": "Schweiz",
+        "lang": "da"
+      },
+      {
+        "name": "Švajčiarsko",
+        "lang": "sk"
+      },
+      {
+        "name": "An Eilvéis",
+        "lang": "ga"
+      },
+      {
+        "name": "Thụy Sĩ",
+        "lang": "vi"
+      },
+      {
+        "name": "スイス連邦",
+        "lang": "ja"
+      },
+      {
+        "name": "Šveica",
+        "lang": "se"
+      },
+      {
+        "name": "Y Swistir",
+        "lang": "cy"
+      },
+      {
+        "name": "Švýcarsko",
+        "lang": "cs"
+      },
+      {
+        "name": "Suisse",
+        "lang": "fr"
+      },
+      {
+        "name": "Confederazione Svizzera",
+        "lang": "it"
+      },
+      {
+        "name": "Šveice",
+        "lang": "lv"
+      },
+      {
+        "name": "Sviss",
+        "lang": "is"
+      },
+      {
+        "name": "Šveicarija",
+        "lang": "lt"
+      },
+      {
+        "name": "Sveis",
+        "lang": "fo"
+      },
+      {
+        "name": "Швейцария",
+        "lang": "ru"
+      },
+      {
+        "name": "ສະວິດເຊີແລນ",
+        "lang": "lo"
+      },
+      {
+        "name": "Swisi",
+        "lang": "ln"
+      },
+      {
+        "name": "Sveitsi",
+        "lang": "fi"
+      },
+      {
+        "name": "سوئزر لینڈ",
+        "lang": "ur"
+      },
+      {
+        "name": "Elveţia",
+        "lang": "ro"
+      },
+      {
+        "name": "Suïssa",
+        "lang": "ca"
+      },
+      {
+        "name": "Swiss",
+        "lang": "id"
+      },
+      {
+        "name": "Швейцарія",
+        "lang": "uk"
+      },
+      {
+        "name": "سوئیس",
+        "lang": "fa"
+      },
+      {
+        "name": "Suissa",
+        "lang": "ia"
+      },
+      {
+        "name": "Շվեյցարիա",
+        "lang": "hy"
+      },
+      {
+        "name": "Suitza",
+        "lang": "eu"
+      },
+      {
+        "name": "Ĩveits",
+        "lang": "et"
+      },
+      {
+        "name": "Suiza",
+        "lang": "es"
+      },
+      {
+        "name": "Svájc",
+        "lang": "hu"
+      },
+      {
+        "name": "Švicarska",
+        "lang": "hr"
+      },
+      {
+        "name": "সুইজারল্যান্ড",
+        "lang": "bn"
+      },
+      {
+        "name": "Svisujo",
+        "lang": "eo"
+      },
+      {
+        "name": "Switzerland",
+        "lang": "en"
+      },
+      {
+        "name": "Ελβετία",
+        "lang": "el"
+      },
+      {
+        "name": "스위스",
+        "lang": "ko"
+      },
+      {
+        "name": "Швейцария",
+        "lang": "bg"
+      },
+      {
+        "name": "ស្វីស",
+        "lang": "km"
+      },
+      {
+        "name": "Sveits",
+        "lang": "nn"
+      },
+      {
+        "name": "İsviçre",
+        "lang": "tr"
+      },
+      {
+        "name": "Швейцарыя",
+        "lang": "be"
+      },
+      {
+        "name": "स्विटज़रलैंड",
+        "lang": "hi"
+      },
+      {
+        "name": "Zwitserland",
+        "lang": "nl"
+      },
+      {
+        "name": "Suisilani",
+        "lang": "to"
+      },
+      {
+        "name": "שוויץ",
+        "lang": "he"
+      }
+    ],
+    "countryName": "Switzerland",
+    "adminCode1": "00",
+    "fclName": "country, state, region,...",
+    "countryCode": "CH",
+    "lng": 8.01426887512207,
+    "adminName2": "",
+    "adminName3": "",
+    "fcodeName": "independent political entity",
+    "adminName4": "",
+    "timezone": {
+      "dstOffset": 2,
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Zurich"
+    },
+    "fcl": "A",
+    "name": "Switzerland",
+    "fcode": "PCLI",
+    "geonameId": 2658434,
+    "lat": 47.0001583752864,
+    "population": 7581000,
+    "adminName1": ""
+  },
+  {
+    "countryName": "Switzerland",
+    "adminCode1": "ZH",
+    "fclName": "country, state, region,...",
+    "countryCode": "CH",
+    "lng": 8.6666667,
+    "adminName2": "",
+    "adminName3": "",
+    "fcodeName": "first-order administrative division",
+    "adminName4": "",
+    "timezone": {
+      "dstOffset": 2,
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Zurich"
+    },
+    "fcl": "A",
+    "name": "Kanton Zürich",
+    "fcode": "ADM1",
+    "geonameId": 2657895,
+    "lat": 47.4166667,
+    "population": 1289559,
+    "adminName1": "Zürich"
+  },
+  {
+    "alternateNames": [
+      {
+        "name": "Lungsod ng Zürich",
+        "lang": "tl"
+      },
+      {
+        "name": "苏黎世",
+        "lang": "zh"
+      },
+      {
+        "name": "زيورخ",
+        "lang": "ar"
+      },
+      {
+        "name": "Canton Zurìcu",
+        "lang": "scn"
+      },
+      {
+        "name": "Zürich",
+        "lang": "sv"
+      },
+      {
+        "name": "Zurique",
+        "lang": "pt"
+      },
+      {
+        "name": "Zürich",
+        "lang": "af"
+      },
+      {
+        "name": "Цирих",
+        "lang": "sr"
+      },
+      {
+        "name": "Zürich",
+        "lang": "sq"
+      },
+      {
+        "name": "Zürich",
+        "lang": "de"
+      },
+      {
+        "name": "Zürich",
+        "lang": "als"
+      },
+      {
+        "name": "Zurych",
+        "lang": "pl"
+      },
+      {
+        "name": "Zürich",
+        "lang": "sl"
+      },
+      {
+        "name": "Zürich",
+        "lang": "da"
+      },
+      {
+        "name": "Zürich",
+        "lang": "sk"
+      },
+      {
+        "name": "Zurich",
+        "lang": "pdc"
+      },
+      {
+        "name": "Zürich",
+        "lang": "sh"
+      },
+      {
+        "name": "Zürich",
+        "lang": "vi"
+      },
+      {
+        "name": "チューリッヒ",
+        "lang": "ja"
+      },
+      {
+        "name": "Curych",
+        "lang": "cs"
+      },
+      {
+        "name": "Zurigo",
+        "lang": "it"
+      },
+      {
+        "name": "Zurich",
+        "lang": "fr"
+      },
+      {
+        "name": "Cīrihe",
+        "lang": "lv"
+      },
+      {
+        "name": "Zürich",
+        "lang": "is"
+      },
+      {
+        "name": "ܨܝܘܪܫ",
+        "lang": "arc"
+      },
+      {
+        "name": "Ciūrichas",
+        "lang": "lt"
+      },
+      {
+        "name": "Zürich",
+        "lang": "io"
+      },
+      {
+        "name": "Цюрих",
+        "lang": "ru"
+      },
+      {
+        "name": "Zürich",
+        "lang": "fi"
+      },
+      {
+        "name": "Zürich",
+        "lang": "ro"
+      },
+      {
+        "name": "Turitg",
+        "lang": "rm"
+      },
+      {
+        "name": "Zuric",
+        "lang": "ca"
+      },
+      {
+        "name": "Zürich",
+        "lang": "id"
+      },
+      {
+        "name": "Turicum",
+        "lang": "la"
+      },
+      {
+        "name": "سيۇرىخ",
+        "lang": "ug"
+      },
+      {
+        "name": "Zürich",
+        "lang": "bs"
+      },
+      {
+        "name": "Zurich",
+        "lang": "eu"
+      },
+      {
+        "name": "Tsurique",
+        "lang": "frp"
+      },
+      {
+        "name": "Zürich",
+        "lang": "et"
+      },
+      {
+        "name": "Zürich",
+        "lang": "hu"
+      },
+      {
+        "name": "Zúrich",
+        "lang": "es"
+      },
+      {
+        "name": "Zürich",
+        "lang": "hr"
+      },
+      {
+        "name": "Zuriko",
+        "lang": "eo"
+      },
+      {
+        "name": "Zürich",
+        "lang": "en"
+      },
+      {
+        "name": "Zürich",
+        "lang": "qu"
+      },
+      {
+        "name": "Ζυρίχη",
+        "lang": "el"
+      },
+      {
+        "name": "취리히",
+        "lang": "ko"
+      },
+      {
+        "name": "Цюрих",
+        "lang": "bg"
+      },
+      {
+        "name": "Zürich",
+        "lang": "no"
+      },
+      {
+        "name": "Zürih",
+        "lang": "tr"
+      },
+      {
+        "name": "Zürich",
+        "lang": "nn"
+      },
+      {
+        "name": "Цюрых",
+        "lang": "be"
+      },
+      {
+        "name": "ज़्यूरिख",
+        "lang": "hi"
+      },
+      {
+        "name": "Zürich",
+        "lang": "nl"
+      },
+      {
+        "name": "ציריך",
+        "lang": "he"
+      }
+    ],
+    "countryName": "Switzerland",
+    "adminCode1": "ZH",
+    "fclName": "city, village,...",
+    "countryCode": "CH",
+    "lng": 8.55,
+    "adminName2": "",
+    "adminName3": "",
+    "fcodeName": "seat of a first-order administrative division",
+    "adminName4": "",
+    "timezone": {
+      "dstOffset": 2,
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Zurich"
+    },
+    "fcl": "P",
+    "name": "Zürich",
+    "fcode": "PPLA",
+    "geonameId": 2657896,
+    "lat": 47.3666667,
+    "population": 341730,
+    "adminName1": "Zürich"
+  }
+]}

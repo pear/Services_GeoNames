@@ -13,7 +13,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -22,14 +22,14 @@ Array
             [adminCode1] => 01
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 13.75
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 4
             [name] => Abruzzo
             [fcode] => ADM1
             [geonameId] => 3183560
-            [lat] => 42.25
+            [lat] => %s
             [population] => 0
             [adminName1] => Abruzzo
         )
@@ -40,14 +40,14 @@ Array
             [adminCode1] => 19
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 7.25
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 1
             [name] => Aosta Valley
             [fcode] => ADM1
             [geonameId] => 3164857
-            [lat] => 45.75
+            [lat] => %s
             [population] => 0
             [adminName1] => Aosta Valley
         )
@@ -58,14 +58,14 @@ Array
             [adminCode1] => 13
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 16.25
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 5
             [name] => Apulia
             [fcode] => ADM1
             [geonameId] => 3169778
-            [lat] => 41.25
+            [lat] => %s
             [population] => 4021957
             [adminName1] => Apulia
         )
@@ -76,14 +76,14 @@ Array
             [adminCode1] => 02
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 16.5
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 2
             [name] => Basilicate
             [fcode] => ADM1
             [geonameId] => 3182306
-            [lat] => 40.5
+            [lat] => %s
             [population] => 582337
             [adminName1] => Basilicate
         )
@@ -94,14 +94,14 @@ Array
             [adminCode1] => 03
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 16.5
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 5
             [name] => Calabria
             [fcode] => ADM1
             [geonameId] => 2525468
-            [lat] => 39
+            [lat] => %s
             [population] => 0
             [adminName1] => Calabria
         )
@@ -112,14 +112,14 @@ Array
             [adminCode1] => 04
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 14.5
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 5
             [name] => Campania
             [fcode] => ADM1
             [geonameId] => 3181042
-            [lat] => 41
+            [lat] => %s
             [population] => 5766975
             [adminName1] => Campania
         )
@@ -130,14 +130,14 @@ Array
             [adminCode1] => 06
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 13
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 4
             [name] => Friuli
             [fcode] => ADM1
             [geonameId] => 3176525
-            [lat] => 46
+            [lat] => %s
             [population] => 1188675
             [adminName1] => Friuli
         )
@@ -148,14 +148,14 @@ Array
             [adminCode1] => 07
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 12.5
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 5
             [name] => Latium
             [fcode] => ADM1
             [geonameId] => 3174976
-            [lat] => 42
+            [lat] => %s
             [population] => 5501631
             [adminName1] => Latium
         )
@@ -166,14 +166,14 @@ Array
             [adminCode1] => 08
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 8.8333333
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 4
             [name] => Liguria
             [fcode] => ADM1
             [geonameId] => 3174725
-            [lat] => 44.5
+            [lat] => %s
             [population] => 1557777
             [adminName1] => Liguria
         )
@@ -184,14 +184,14 @@ Array
             [adminCode1] => 09
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 9.5
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 11
             [name] => Lombardy
             [fcode] => ADM1
             [geonameId] => 3174618
-            [lat] => 45.6666667
+            [lat] => %s
             [population] => 9387203
             [adminName1] => Lombardy
         )
@@ -202,14 +202,14 @@ Array
             [adminCode1] => 12
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 8
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 8
             [name] => Piedmont
             [fcode] => ADM1
             [geonameId] => 3170831
-            [lat] => 45
+            [lat] => %s
             [population] => 4294081
             [adminName1] => Piedmont
         )
@@ -220,14 +220,14 @@ Array
             [adminCode1] => 05
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 11
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 9
             [name] => Regione Emilia-Romagna
             [fcode] => ADM1
             [geonameId] => 3177401
-            [lat] => 44.75
+            [lat] => %s
             [population] => 4115321
             [adminName1] => Emilia-Romagna
         )
@@ -238,14 +238,14 @@ Array
             [adminCode1] => 11
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 14.5
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 2
             [name] => Regione Molise
             [fcode] => ADM1
             [geonameId] => 3173222
-            [lat] => 41.6666667
+            [lat] => %s
             [population] => 324508
             [adminName1] => Molise
         )
@@ -256,14 +256,14 @@ Array
             [adminCode1] => 14
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 9
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 8
             [name] => Sardinia
             [fcode] => ADM1
             [geonameId] => 2523228
-            [lat] => 40
+            [lat] => %s
             [population] => 0
             [adminName1] => Sardinia
         )
@@ -274,14 +274,14 @@ Array
             [adminCode1] => 15
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 14.25
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 9
             [name] => Sicily
             [fcode] => ADM1
             [geonameId] => 2523119
-            [lat] => 37.75
+            [lat] => %s
             [population] => 5135871
             [adminName1] => Sicily
         )
@@ -292,14 +292,14 @@ Array
             [adminCode1] => 10
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 13.25
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 4
             [name] => The Marches
             [fcode] => ADM1
             [geonameId] => 3174004
-            [lat] => 43.5
+            [lat] => %s
             [population] => 1501401
             [adminName1] => The Marches
         )
@@ -310,14 +310,14 @@ Array
             [adminCode1] => 17
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 11.3333333
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 2
             [name] => Trentino-Alto Adige
             [fcode] => ADM1
             [geonameId] => 3165244
-            [lat] => 46.5
+            [lat] => %s
             [population] => 961848
             [adminName1] => Trentino-Alto Adige
         )
@@ -328,14 +328,14 @@ Array
             [adminCode1] => 16
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 11
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 10
             [name] => Tuscany
             [fcode] => ADM1
             [geonameId] => 3165361
-            [lat] => 43.4166667
+            [lat] => %s
             [population] => 3573454
             [adminName1] => Tuscany
         )
@@ -346,14 +346,14 @@ Array
             [adminCode1] => 18
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 12.5
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 2
             [name] => Umbria
             [fcode] => ADM1
             [geonameId] => 3165048
-            [lat] => 43
+            [lat] => %s
             [population] => 864496
             [adminName1] => Umbria
         )
@@ -364,14 +364,14 @@ Array
             [adminCode1] => 20
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 11.75
+            [lng] => %s
             [fcodeName] => first-order administrative division
             [fcl] => A
             [numberOfChildren] => 7
             [name] => Veneto
             [fcode] => ADM1
             [geonameId] => 3164604
-            [lat] => 45.5
+            [lat] => %s
             [population] => 4697774
             [adminName1] => Veneto
         )

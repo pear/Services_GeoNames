@@ -17,7 +17,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -28,10 +28,10 @@ Array
             [fclName] => city, village,...
             [name] => Mexico City
             [wikipedia] => en.wikipedia.org/wiki/Mexico_City
-            [lng] => -99.1386111
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 3530597
-            [lat] => 19.4341667
+            [lat] => %s
             [population] => 11285654
         )
 
@@ -43,10 +43,10 @@ Array
             [fclName] => city, village,...
             [name] => Manila
             [wikipedia] => 
-            [lng] => 120.9822222
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1701668
-            [lat] => 14.6041667
+            [lat] => %s
             [population] => 10444527
         )
 
@@ -58,10 +58,10 @@ Array
             [fclName] => city, village,...
             [name] => Dhaka
             [wikipedia] => en.wikipedia.org/wiki/Dhaka
-            [lng] => 90.4086111
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1185241
-            [lat] => 23.7230556
+            [lat] => %s
             [population] => 10356500
         )
 
@@ -73,10 +73,10 @@ Array
             [fclName] => city, village,...
             [name] => Seoul
             [wikipedia] => en.wikipedia.org/wiki/Seoul
-            [lng] => 126.9997222
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1835848
-            [lat] => 37.5663889
+            [lat] => %s
             [population] => 10349312
         )
 
@@ -88,10 +88,10 @@ Array
             [fclName] => city, village,...
             [name] => Jakarta
             [wikipedia] => en.wikipedia.org/wiki/Jakarta
-            [lng] => 106.8294444
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1642911
-            [lat] => -6.1744444
+            [lat] => %s
             [population] => 8540121
         )
 
@@ -103,10 +103,10 @@ Array
             [fclName] => city, village,...
             [name] => Tokyo
             [wikipedia] => en.wikipedia.org/wiki/Tokyo
-            [lng] => 139.691677094
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1850147
-            [lat] => 35.6895265931
+            [lat] => %s
             [population] => 8336599
         )
 
@@ -118,10 +118,10 @@ Array
             [fclName] => city, village,...
             [name] => Taipei
             [wikipedia] => en.wikipedia.org/wiki/Taipei
-            [lng] => 121.525
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1668341
-            [lat] => 25.0391667
+            [lat] => %s
             [population] => 7871900
         )
 
@@ -133,10 +133,10 @@ Array
             [fclName] => city, village,...
             [name] => Beijing
             [wikipedia] => en.wikipedia.org/wiki/Beijing
-            [lng] => 116.397228241
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1816670
-            [lat] => 39.9074977414
+            [lat] => %s
             [population] => 7480601
         )
 
@@ -148,10 +148,10 @@ Array
             [fclName] => city, village,...
             [name] => Bogotá
             [wikipedia] => en.wikipedia.org/wiki/Bogot%C3%A1
-            [lng] => -74.0833333
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 3688689
-            [lat] => 4.6
+            [lat] => %s
             [population] => 7102602
         )
 
@@ -163,10 +163,10 @@ Array
             [fclName] => city, village,...
             [name] => Hong Kong
             [wikipedia] => 
-            [lng] => 114.150073528
+            [lng] => %s
             [fcode] => PPLC
             [geonameId] => 1819729
-            [lat] => 22.284013601
+            [lat] => %s
             [population] => 7012738
         )
 

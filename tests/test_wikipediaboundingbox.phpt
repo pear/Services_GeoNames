@@ -17,7 +17,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -27,11 +27,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Chongqing
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 106.506944444
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/60000/thumb-59536-100.jpg
             [lang] => en
-            [lat] => 29.55
+            [lat] => %s
             [population] => 31823239
         )
 
@@ -42,11 +42,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Mumbai
             [elevation] => 0
             [countryCode] => IN
-            [lng] => 72.8258333333
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/36000/thumb-35101-100.jpg
             [lang] => en
-            [lat] => 18.9647222222
+            [lat] => %s
             [population] => 12692717
         )
 
@@ -57,11 +57,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Shanghai
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 121.466666667
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/29000/thumb-28777-100.jpg
             [lang] => en
-            [lat] => 31.2333333333
+            [lat] => %s
             [population] => 13355925
         )
 
@@ -72,11 +72,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Mexico_City
             [elevation] => 0
             [countryCode] => MX
-            [lng] => -99.1455555556
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/100000/thumb-99165-100.jpg
             [lang] => en
-            [lat] => 19.4194444444
+            [lat] => %s
             [population] => 8657045
         )
 
@@ -87,11 +87,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/New_York_City
             [elevation] => 0
             [countryCode] => US
-            [lng] => -74.0058333333
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/156000/thumb-155265-100.jpg
             [lang] => en
-            [lat] => 40.7127777778
+            [lat] => %s
             [population] => 8108080
         )
 
@@ -102,10 +102,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/List_of_schools_of_the_Dallas_Independent_School_District
             [elevation] => 0
             [countryCode] =>   
-            [lng] => -96.680125
+            [lng] => %s
             [feature] => 
             [lang] => en
-            [lat] => 32.8271027778
+            [lat] => %s
             [population] => 0
         )
 
@@ -116,10 +116,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/History_of_Lycoming_County%2C_Pennsylvania
             [elevation] => 0
             [countryCode] =>   
-            [lng] => -76.786333
+            [lng] => %s
             [feature] => city
             [lang] => en
-            [lat] => 41.201969
+            [lat] => %s
             [population] => 0
         )
 
@@ -130,11 +130,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Seoul
             [elevation] => 0
             [countryCode] => KO
-            [lng] => 126.978135
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/99000/thumb-98869-100.jpg
             [lang] => en
-            [lat] => 37.565654
+            [lat] => %s
             [population] => 10349291
         )
 
@@ -145,11 +145,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/University_of_Virginia
             [elevation] => 0
             [countryCode] => US
-            [lng] => -78.5041666667
+            [lng] => %s
             [feature] => landmark
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/147000/thumb-146909-100.jpg
             [lang] => en
-            [lat] => 38.0345833333
+            [lat] => %s
             [population] => 0
         )
 
@@ -160,11 +160,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/India
             [elevation] => 0
             [countryCode] => IN
-            [lng] => 78.3105555556
+            [lng] => %s
             [feature] => country
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/130000/thumb-129295-100.jpg
             [lang] => en
-            [lat] => 21.1255555556
+            [lat] => %s
             [population] => 0
         )
 
@@ -175,11 +175,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/People%27s_Republic_of_China
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 103.083333333
+            [lng] => %s
             [feature] => country
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/91000/thumb-90911-100.jpg
             [lang] => en
-            [lat] => 32.8
+            [lat] => %s
             [population] => 0
         )
 
@@ -190,11 +190,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Karachi
             [elevation] => 0
             [countryCode] => PK
-            [lng] => 67.0180555556
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/131000/thumb-130298-100.jpg
             [lang] => en
-            [lat] => 24.8508333333
+            [lat] => %s
             [population] => 10752523
         )
 
@@ -205,11 +205,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Hong_Kong
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 114.166666667
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/46000/thumb-45361-100.jpg
             [lang] => en
-            [lat] => 22.3
+            [lat] => %s
             [population] => 7013832
         )
 
@@ -220,11 +220,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Tianjin
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 117.183333333
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/98000/thumb-97687-100.jpg
             [lang] => en
-            [lat] => 39.1333333333
+            [lat] => %s
             [population] => 10316000
         )
 
@@ -235,11 +235,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Jakarta
             [elevation] => 0
             [countryCode] => ID
-            [lng] => 106.828611111
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/126000/thumb-125116-100.jpg
             [lang] => en
-            [lat] => -6.175
+            [lat] => %s
             [population] => 8540306
         )
 
@@ -250,11 +250,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Beijing
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 116.388333333
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/68000/thumb-67101-100.jpg
             [lang] => en
-            [lat] => 39.9288888889
+            [lat] => %s
             [population] => 7490618
         )
 
@@ -265,10 +265,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Shanghai_International_Port_%28Group%29
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 122.05
+            [lng] => %s
             [feature] => city
             [lang] => en
-            [lat] => 30.6333333333
+            [lat] => %s
             [population] => 13355925
         )
 
@@ -279,11 +279,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Pakistan
             [elevation] => 0
             [countryCode] => PK
-            [lng] => 69.1833333333
+            [lng] => %s
             [feature] => country
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/95000/thumb-94527-100.jpg
             [lang] => en
-            [lat] => 29.4
+            [lat] => %s
             [population] => 0
         )
 
@@ -294,10 +294,10 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Anting
             [elevation] => 0
             [countryCode] => CN
-            [lng] => 121.15
+            [lng] => %s
             [feature] => city
             [lang] => en
-            [lat] => 31.3
+            [lat] => %s
             [population] => 13355925
         )
 
@@ -308,11 +308,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Tokyo
             [elevation] => 0
             [countryCode] => JP
-            [lng] => 139.76
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/4000/thumb-3415-100.jpg
             [lang] => en
-            [lat] => 35.68
+            [lat] => %s
             [population] => 8336611
         )
 

@@ -16,7 +16,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 stdClass Object
 (
     [adminName2] => New York County

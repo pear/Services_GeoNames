@@ -16,5 +16,5 @@ try {
 }
 
 ?>
---EXPECT--
+--EXPECTF--
 missing lat/lng

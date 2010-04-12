@@ -12,7 +12,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -21,13 +21,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => AT
-            [lng] => 13.3333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Austria
             [fcode] => PCLI
             [geonameId] => 2782113
-            [lat] => 47.3333333
+            [lat] => %s
             [population] => 8205000
             [adminName1] => 
         )
@@ -38,13 +38,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => FR
-            [lng] => 2
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => France
             [fcode] => PCLI
             [geonameId] => 3017382
-            [lat] => 46
+            [lat] => %s
             [population] => 64094000
             [adminName1] => 
         )
@@ -55,13 +55,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => DE
-            [lng] => 10.5
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Germany
             [fcode] => PCLI
             [geonameId] => 2921044
-            [lat] => 51.5
+            [lat] => %s
             [population] => 82369000
             [adminName1] => 
         )
@@ -72,13 +72,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 12.8333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Italy
             [fcode] => PCLI
             [geonameId] => 3175395
-            [lat] => 42.8333333
+            [lat] => %s
             [population] => 58145000
             [adminName1] => 
         )
@@ -89,13 +89,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => LI
-            [lng] => 9.5333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Liechtenstein
             [fcode] => PCLI
             [geonameId] => 3042058
-            [lat] => 47.1666667
+            [lat] => %s
             [population] => 33717
             [adminName1] => 
         )

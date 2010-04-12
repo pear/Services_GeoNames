@@ -15,10 +15,10 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 stdClass Object
 (
     [srtm3] => 206
-    [lng] => 10.2
-    [lat] => 50.01
+    [lng] => %s
+    [lat] => %s
 )

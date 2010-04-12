@@ -16,7 +16,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 stdClass Object
 (
     [adminName2] => San Mateo
@@ -26,9 +26,9 @@ stdClass Object
     [distance] => 0.06
     [street] => Roble Ave
     [countryCode] => US
-    [lng] => -122.1804326
+    [lng] => %s
     [streetNumber] => 675
     [placename] => Menlo Park
-    [lat] => 37.4513708
+    [lat] => %s
     [adminName1] => California
 )

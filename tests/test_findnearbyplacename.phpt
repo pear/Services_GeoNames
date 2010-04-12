@@ -16,7 +16,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -26,7 +26,7 @@ Array
             [fclName] => city, village,...
             [elevation] => 0
             [countryCode] => CH
-            [lng] => 8.988454
+            [lng] => %s
             [adminName2] => 
             [adminName3] => 
             [fcodeName] => populated place
@@ -43,7 +43,7 @@ Array
             [name] => Atzmännig
             [fcode] => PPL
             [geonameId] => 6559633
-            [lat] => 47.287633
+            [lat] => %s
             [population] => 0
             [adminName1] => Kanton St. Gallen
         )

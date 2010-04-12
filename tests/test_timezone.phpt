@@ -24,7 +24,7 @@ stdClass Object
     [dstOffset] => 2
     [countryCode] => AT
     [gmtOffset] => 1
-    [lng] => 10.2
+    [lng] => %s
     [timezoneId] => Europe/Vienna
-    [lat] => 47.01
+    [lat] => %s
 )

@@ -17,7 +17,7 @@ try {
 }
 
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => children

@@ -18,51 +18,51 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
         (
             [eqid] => 2007byar
             [magnitude] => 6.1
-            [lng] => -14.8688
+            [lng] => %s
             [src] => us
             [datetime] => 2007-05-04 12:06:52
             [depth] => 10
-            [lat] => -1.5226
+            [lat] => %s
         )
 
     [1] => stdClass Object
         (
             [eqid] => 2007atai
             [magnitude] => 5.1
-            [lng] => -13.3787
+            [lng] => %s
             [src] => us
             [datetime] => 2007-04-04 00:56:53
             [depth] => 10
-            [lat] => -3.3167
+            [lat] => %s
         )
 
     [2] => stdClass Object
         (
             [eqid] => vaap
             [magnitude] => 5.2
-            [lng] => -14.839
+            [lng] => %s
             [src] => us
             [datetime] => 2006-11-13 08:53:58
             [depth] => 10
-            [lat] => -12.539
+            [lat] => %s
         )
 
     [3] => stdClass Object
         (
             [eqid] => pzai
             [magnitude] => 5.4
-            [lng] => -13.385
+            [lng] => %s
             [src] => us
             [datetime] => 2006-07-10 07:21:38
             [depth] => 10
-            [lat] => -11.649
+            [lat] => %s
         )
 
 )

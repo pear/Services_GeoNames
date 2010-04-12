@@ -15,7 +15,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -27,9 +27,9 @@ Array
             [adminCode1] => SG
             [postalCode] => 9011
             [countryCode] => CH
-            [lng] => 9.4
+            [lng] => %s
             [placeName] => St. Gallen
-            [lat] => 47.4666667
+            [lat] => %s
             [adminName1] => St. Gallen
         )
 
@@ -38,9 +38,9 @@ Array
             [adminCode1] => GS
             [postalCode] => 9011
             [countryCode] => HU
-            [lng] => 17.7819444375
+            [lng] => %s
             [placeName] => Győr
-            [lat] => 47.6076389
+            [lat] => %s
             [adminName1] => Győr-Moson-Sopron
         )
 

@@ -14,6 +14,6 @@ try {
 }
 
 ?>
---EXPECT--
+--EXPECTF--
 Absolute URL required
 HTTP_Request2_Exception

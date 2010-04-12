@@ -13,5 +13,5 @@ try {
 }
 
 ?>
---EXPECT--
+--EXPECTF--
 Unknown service endpoint "unknownEndpoint"

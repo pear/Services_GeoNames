@@ -20,5 +20,5 @@ try {
 }
 
 ?>
---EXPECT--
+--EXPECTF--
 bool(true)

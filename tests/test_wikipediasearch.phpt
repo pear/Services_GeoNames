@@ -16,7 +16,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -26,11 +26,11 @@ Array
             [wikipediaUrl] => en.wikipedia.org/wiki/Toulouse
             [elevation] => 0
             [countryCode] => FR
-            [lng] => 1.44277777778
+            [lng] => %s
             [feature] => city
             [thumbnailImg] => http://www.geonames.org/img/wikipedia/98000/thumb-97064-100.jpg
             [lang] => en
-            [lat] => 43.6052777778
+            [lat] => %s
             [population] => 0
         )
 

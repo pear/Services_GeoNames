@@ -17,7 +17,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -26,14 +26,14 @@ Array
             [adminCode1] => A8
             [fclName] => city, village,...
             [countryCode] => FR
-            [lng] => 2.3488
+            [lng] => %s
             [fcodeName] => capital of a political entity
             [distance] => 1.3984
             [fcl] => P
             [name] => Paris
             [fcode] => PPLC
             [geonameId] => 2988507
-            [lat] => 48.85341
+            [lat] => %s
             [population] => 2138551
             [adminName1] => Île-de-France
         )

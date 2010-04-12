@@ -15,7 +15,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 stdClass Object
 (
     [alternateNames] => Array
@@ -157,7 +157,7 @@ stdClass Object
     [countryName] => 
     [adminCode1] => 20
     [fclName] => parks,area, ...
-    [lng] => 0
+    [lng] => %s
     [adminName2] => 
     [adminName3] => 
     [fcodeName] => 
@@ -173,7 +173,7 @@ stdClass Object
     [name] => Globe
     [fcode] => 
     [geonameId] => 6295630
-    [lat] => 0
+    [lat] => %s
     [population] => 0
     [adminName1] => null.20
 )

@@ -17,52 +17,52 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
         (
             [postalCode] => 8775
             [countryCode] => CH
-            [lng] => 9.0333333
+            [lng] => %s
             [placeName] => Luchsingen
-            [lat] => 46.9666667
+            [lat] => %s
         )
 
     [1] => stdClass Object
         (
             [postalCode] => 8773
             [countryCode] => CH
-            [lng] => 9.03666666
+            [lng] => %s
             [placeName] => Haslen GL
-            [lat] => 46.96333334
+            [lat] => %s
         )
 
     [2] => stdClass Object
         (
             [postalCode] => 8773
             [countryCode] => CH
-            [lng] => 9.03666666
+            [lng] => %s
             [placeName] => Haslen GL Fächer
-            [lat] => 46.96333334
+            [lat] => %s
         )
 
     [3] => stdClass Object
         (
             [postalCode] => 8775
             [countryCode] => CH
-            [lng] => 9.0333333
+            [lng] => %s
             [placeName] => Luchsingen-Hätzingen
-            [lat] => 46.95833335
+            [lat] => %s
         )
 
     [4] => stdClass Object
         (
             [postalCode] => 8774
             [countryCode] => CH
-            [lng] => 9.05
+            [lng] => %s
             [placeName] => Leuggelbach
-            [lat] => 46.9666667
+            [lat] => %s
         )
 
 )

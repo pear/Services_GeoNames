@@ -15,7 +15,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -23,9 +23,9 @@ Array
             [postalcode] => 31200
             [adminCode1] => N
             [countryCode] => FR
-            [lng] => 1.09583333261
+            [lng] => %s
             [placeName] => Toulouse
-            [lat] => 43.2637681174
+            [lat] => %s
             [adminName1] => Midi-Pyrenees
         )
 

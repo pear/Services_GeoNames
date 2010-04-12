@@ -17,6 +17,6 @@ try {
 }
 
 ?>
---EXPECT--
+--EXPECTF--
 Not Found
 bool(true)

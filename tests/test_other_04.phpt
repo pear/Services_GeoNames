@@ -18,5 +18,5 @@ try {
 }
 
 ?>
---EXPECT--
+--EXPECTF--
 404 Not Found

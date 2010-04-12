@@ -16,7 +16,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -25,13 +25,13 @@ Array
             [adminCode1] => ENG
             [fclName] => city, village,...
             [countryCode] => GB
-            [lng] => -0.125532746315
+            [lng] => %s
             [fcodeName] => capital of a political entity
             [fcl] => P
             [name] => Londres
             [fcode] => PPLC
             [geonameId] => 2643743
-            [lat] => 51.5084152564
+            [lat] => %s
             [population] => 7421209
             [adminName1] => Angleterre
         )
@@ -42,13 +42,13 @@ Array
             [adminCode1] => 08
             [fclName] => city, village,...
             [countryCode] => CA
-            [lng] => -81.233042387
+            [lng] => %s
             [fcodeName] => populated place
             [fcl] => P
             [name] => London
             [fcode] => PPL
             [geonameId] => 6058560
-            [lat] => 42.983389283
+            [lat] => %s
             [population] => 352395
             [adminName1] => Ontario
         )

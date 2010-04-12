@@ -12,7 +12,7 @@ try {
     echo $exc->getMessage();
 }
 ?>
---EXPECT--
+--EXPECTF--
 Array
 (
     [0] => stdClass Object
@@ -21,13 +21,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => AL
-            [lng] => 20
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Albania
             [fcode] => PCLI
             [geonameId] => 783754
-            [lat] => 41
+            [lat] => %s
             [population] => 3619000
             [adminName1] => 
         )
@@ -38,13 +38,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => AD
-            [lng] => 1.5
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Andorra
             [fcode] => PCLI
             [geonameId] => 3041565
-            [lat] => 42.5
+            [lat] => %s
             [population] => 70549
             [adminName1] => 
         )
@@ -55,13 +55,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => AT
-            [lng] => 13.3333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Austria
             [fcode] => PCLI
             [geonameId] => 2782113
-            [lat] => 47.3333333
+            [lat] => %s
             [population] => 8205000
             [adminName1] => 
         )
@@ -72,13 +72,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => BY
-            [lng] => 28
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Belarus
             [fcode] => PCLI
             [geonameId] => 630336
-            [lat] => 53
+            [lat] => %s
             [population] => 9685000
             [adminName1] => 
         )
@@ -89,13 +89,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => BE
-            [lng] => 4
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Belgium
             [fcode] => PCLI
             [geonameId] => 2802361
-            [lat] => 50.8333333
+            [lat] => %s
             [population] => 10403000
             [adminName1] => 
         )
@@ -106,13 +106,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => BA
-            [lng] => 17.8333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Bosnia and Herzegovina
             [fcode] => PCLI
             [geonameId] => 3277605
-            [lat] => 44.25
+            [lat] => %s
             [population] => 4025476
             [adminName1] => 
         )
@@ -123,13 +123,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => BG
-            [lng] => 25
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Bulgaria
             [fcode] => PCLI
             [geonameId] => 732800
-            [lat] => 43
+            [lat] => %s
             [population] => 7262000
             [adminName1] => 
         )
@@ -140,13 +140,13 @@ Array
             [adminCode1] => 05
             [fclName] => country, state, region,...
             [countryCode] => HR
-            [lng] => 15.5
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Croatia
             [fcode] => PCLI
             [geonameId] => 3202326
-            [lat] => 45.1666667
+            [lat] => %s
             [population] => 4495904
             [adminName1] => Karlovačka
         )
@@ -157,13 +157,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => CY
-            [lng] => 33
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Cyprus
             [fcode] => PCLI
             [geonameId] => 146669
-            [lat] => 35
+            [lat] => %s
             [population] => 792000
             [adminName1] => 
         )
@@ -174,13 +174,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => CZ
-            [lng] => 15
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Czechia
             [fcode] => PCLI
             [geonameId] => 3077311
-            [lat] => 49.75
+            [lat] => %s
             [population] => 10220000
             [adminName1] => 
         )
@@ -191,13 +191,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => DK
-            [lng] => 10
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Denmark
             [fcode] => PCLI
             [geonameId] => 2623032
-            [lat] => 56
+            [lat] => %s
             [population] => 5484000
             [adminName1] => 
         )
@@ -208,13 +208,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => EE
-            [lng] => 26
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Estonia
             [fcode] => PCLI
             [geonameId] => 453733
-            [lat] => 59
+            [lat] => %s
             [population] => 1307000
             [adminName1] => 
         )
@@ -225,13 +225,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => FI
-            [lng] => 26
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Finland
             [fcode] => PCLI
             [geonameId] => 660013
-            [lat] => 64
+            [lat] => %s
             [population] => 5244000
             [adminName1] => 
         )
@@ -242,13 +242,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => DE
-            [lng] => 10.5
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Germany
             [fcode] => PCLI
             [geonameId] => 2921044
-            [lat] => 51.5
+            [lat] => %s
             [population] => 82369000
             [adminName1] => 
         )
@@ -259,13 +259,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => GI
-            [lng] => -5.35
+            [lng] => %s
             [fcodeName] => dependent political entity
             [fcl] => A
             [name] => Gibraltar
             [fcode] => PCLD
             [geonameId] => 2411586
-            [lat] => 36.1333333
+            [lat] => %s
             [population] => 27884
             [adminName1] => 
         )
@@ -276,13 +276,13 @@ Array
             [adminCode1] => WLS
             [fclName] => country, state, region,...
             [countryCode] => GB
-            [lng] => -4.14974212646
+            [lng] => %s
             [fcodeName] => territory
             [fcl] => A
             [name] => Gower
             [fcode] => TERR
             [geonameId] => 6697760
-            [lat] => 51.5952016746
+            [lat] => %s
             [population] => 0
             [adminName1] => Wales
         )
@@ -293,13 +293,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => GR
-            [lng] => 22
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Greece
             [fcode] => PCLI
             [geonameId] => 390903
-            [lat] => 39
+            [lat] => %s
             [population] => 10722000
             [adminName1] => 
         )
@@ -310,13 +310,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => NL
-            [lng] => 5.75
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Holland
             [fcode] => PCLI
             [geonameId] => 2750405
-            [lat] => 52.5
+            [lat] => %s
             [population] => 16645000
             [adminName1] => 
         )
@@ -327,13 +327,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => VA
-            [lng] => 12.4533033371
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Holy See
             [fcode] => PCLI
             [geonameId] => 3164670
-            [lat] => 41.9022450997
+            [lat] => %s
             [population] => 921
             [adminName1] => 
         )
@@ -344,13 +344,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => HU
-            [lng] => 20
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Hungary
             [fcode] => PCLI
             [geonameId] => 719819
-            [lat] => 47
+            [lat] => %s
             [population] => 9930000
             [adminName1] => 
         )
@@ -361,13 +361,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => IS
-            [lng] => -18
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Iceland
             [fcode] => PCLI
             [geonameId] => 2629691
-            [lat] => 65
+            [lat] => %s
             [population] => 304000
             [adminName1] => 
         )
@@ -378,13 +378,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => IE
-            [lng] => -8
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Ireland
             [fcode] => PCLI
             [geonameId] => 2963597
-            [lat] => 53
+            [lat] => %s
             [population] => 4156000
             [adminName1] => 
         )
@@ -395,13 +395,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => IT
-            [lng] => 12.8333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Italy
             [fcode] => PCLI
             [geonameId] => 3175395
-            [lat] => 42.8333333
+            [lat] => %s
             [population] => 58145000
             [adminName1] => 
         )
@@ -412,13 +412,13 @@ Array
             [adminCode1] => 01
             [fclName] => country, state, region,...
             [countryCode] => RS
-            [lng] => 21
+            [lng] => %s
             [fcodeName] => semi-independent political entity
             [fcl] => A
             [name] => Kosovo
             [fcode] => PCLS
             [geonameId] => 831053
-            [lat] => 42.5833333
+            [lat] => %s
             [population] => 2160510
             [adminName1] => RS.01
         )
@@ -429,13 +429,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => LV
-            [lng] => 25
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Latvia
             [fcode] => PCLI
             [geonameId] => 458258
-            [lat] => 57
+            [lat] => %s
             [population] => 2245000
             [adminName1] => 
         )
@@ -446,13 +446,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => LI
-            [lng] => 9.5333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Liechtenstein
             [fcode] => PCLI
             [geonameId] => 3042058
-            [lat] => 47.1666667
+            [lat] => %s
             [population] => 33717
             [adminName1] => 
         )
@@ -463,13 +463,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => LT
-            [lng] => 24
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Lithuania
             [fcode] => PCLI
             [geonameId] => 597427
-            [lat] => 56
+            [lat] => %s
             [population] => 3565000
             [adminName1] => 
         )
@@ -480,13 +480,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => LU
-            [lng] => 6.1666667
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Luxembourg
             [fcode] => PCLI
             [geonameId] => 2960313
-            [lat] => 49.75
+            [lat] => %s
             [population] => 486000
             [adminName1] => 
         )
@@ -497,13 +497,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => MK
-            [lng] => 22
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Macedonia
             [fcode] => PCLI
             [geonameId] => 718075
-            [lat] => 41.8333333
+            [lat] => %s
             [population] => 2045262
             [adminName1] => 
         )
@@ -514,13 +514,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => MT
-            [lng] => 14.4333333
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Malta
             [fcode] => PCLI
             [geonameId] => 2562770
-            [lat] => 35.9166667
+            [lat] => %s
             [population] => 403000
             [adminName1] => 
         )
@@ -531,13 +531,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => MD
-            [lng] => 29
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Moldova
             [fcode] => PCLI
             [geonameId] => 617790
-            [lat] => 47
+            [lat] => %s
             [population] => 4455421
             [adminName1] => 
         )
@@ -548,13 +548,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => MC
-            [lng] => 7.4
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Monaco
             [fcode] => PCLI
             [geonameId] => 2993457
-            [lat] => 43.7333333
+            [lat] => %s
             [population] => 32409
             [adminName1] => 
         )
@@ -565,13 +565,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => ME
-            [lng] => 19.3
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Montenegro
             [fcode] => PCLI
             [geonameId] => 3194884
-            [lat] => 42.5
+            [lat] => %s
             [population] => 678000
             [adminName1] => 
         )
@@ -582,13 +582,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => NO
-            [lng] => 10
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Norway
             [fcode] => PCLI
             [geonameId] => 3144096
-            [lat] => 62
+            [lat] => %s
             [population] => 4644000
             [adminName1] => 
         )
@@ -601,10 +601,10 @@ Array
             [fclName] => country, state, region,...
             [name] => Pilion
             [countryCode] => GR
-            [lng] => 23.2127380371
+            [lng] => %s
             [fcode] => TERR
             [geonameId] => 6692223
-            [lat] => 39.3024245604
+            [lat] => %s
             [adminName1] => 
             [population] => 0
         )
@@ -615,13 +615,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => PL
-            [lng] => 20
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Poland
             [fcode] => PCLI
             [geonameId] => 798544
-            [lat] => 52
+            [lat] => %s
             [population] => 38500000
             [adminName1] => 
         )
@@ -632,13 +632,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => PT
-            [lng] => -8
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Portugal
             [fcode] => PCLI
             [geonameId] => 2264397
-            [lat] => 39.5
+            [lat] => %s
             [population] => 10676000
             [adminName1] => 
         )
@@ -649,13 +649,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => RO
-            [lng] => 25
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Romania
             [fcode] => PCLI
             [geonameId] => 798549
-            [lat] => 46
+            [lat] => %s
             [population] => 22246000
             [adminName1] => 
         )
@@ -666,13 +666,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => RU
-            [lng] => 100
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Russia
             [fcode] => PCLI
             [geonameId] => 2017370
-            [lat] => 60
+            [lat] => %s
             [population] => 140702000
             [adminName1] => 
         )
@@ -683,13 +683,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => SM
-            [lng] => 12.4166667
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => San Marino
             [fcode] => PCLI
             [geonameId] => 3168068
-            [lat] => 43.9333333
+            [lat] => %s
             [population] => 28880
             [adminName1] => 
         )
@@ -700,13 +700,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => RS
-            [lng] => 20.4599761963
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Serbia
             [fcode] => PCLI
             [geonameId] => 6290252
-            [lat] => 44.8189246907
+            [lat] => %s
             [population] => 9396411
             [adminName1] => 
         )
@@ -717,13 +717,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => SK
-            [lng] => 19.5
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Slovakia
             [fcode] => PCLI
             [geonameId] => 3057568
-            [lat] => 48.6666667
+            [lat] => %s
             [population] => 5455000
             [adminName1] => 
         )
@@ -734,13 +734,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => SI
-            [lng] => 15.1666667
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Slovenia
             [fcode] => PCLI
             [geonameId] => 3190538
-            [lat] => 46.25
+            [lat] => %s
             [population] => 2007000
             [adminName1] => 
         )
@@ -751,13 +751,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => ES
-            [lng] => -4
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Spain
             [fcode] => PCLI
             [geonameId] => 2510769
-            [lat] => 40
+            [lat] => %s
             [population] => 40491000
             [adminName1] => 
         )
@@ -768,13 +768,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => SJ
-            [lng] => 20
+            [lng] => %s
             [fcodeName] => territory
             [fcl] => A
             [name] => Svalbard and Jan Mayen
             [fcode] => TERR
             [geonameId] => 607072
-            [lat] => 78
+            [lat] => %s
             [population] => 2265
             [adminName1] => 
         )
@@ -785,13 +785,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => SE
-            [lng] => 15
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Sweden
             [fcode] => PCLI
             [geonameId] => 2661886
-            [lat] => 62
+            [lat] => %s
             [population] => 9045000
             [adminName1] => 
         )
@@ -802,13 +802,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => CH
-            [lng] => 8.01426887512
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Switzerland
             [fcode] => PCLI
             [geonameId] => 2658434
-            [lat] => 47.0001583753
+            [lat] => %s
             [population] => 7581000
             [adminName1] => 
         )
@@ -819,13 +819,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => UA
-            [lng] => 32
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => Ukraine
             [fcode] => PCLI
             [geonameId] => 690791
-            [lat] => 49
+            [lat] => %s
             [population] => 47425336
             [adminName1] => 
         )
@@ -836,13 +836,13 @@ Array
             [adminCode1] => 00
             [fclName] => country, state, region,...
             [countryCode] => GB
-            [lng] => -4
+            [lng] => %s
             [fcodeName] => independent political entity
             [fcl] => A
             [name] => United Kingdom
             [fcode] => PCLI
             [geonameId] => 2635167
-            [lat] => 54
+            [lat] => %s
             [population] => 60943000
             [adminName1] => 
         )

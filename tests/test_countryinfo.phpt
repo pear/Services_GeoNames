@@ -21,20 +21,20 @@ Array
     [0] => stdClass Object
         (
             [countryName] => Germania
-            [bBoxWest] => 5.86563825607
+            [bBoxWest] => %s
             [currencyCode] => EUR
             [fipsCode] => GM
             [countryCode] => DE
             [isoNumeric] => 276
             [capital] => Berlino
-            [areaInSqKm] => 357021.0
+            [areaInSqKm] => %s
             [languages] => de
-            [bBoxEast] => 15.0398902893
+            [bBoxEast] => %s
             [isoAlpha3] => DEU
             [continent] => EU
-            [bBoxNorth] => 55.0556411743
+            [bBoxNorth] => %s
             [geonameId] => 2921044
-            [bBoxSouth] => 47.2757720947
+            [bBoxSouth] => %s
             [population] => 82369000
         )
 

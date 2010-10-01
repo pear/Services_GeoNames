@@ -363,10 +363,12 @@ class Services_GeoNames
         foreach ($params as $name => $value) {
             if (is_array($value)) {
                 foreach ($value as $val) {
-                    $qString[] = $name . '=' . urlencode(utf8_encode($val));
+                    $val = $this->isUtf8($val) ? $val : utf8_encode($val);
+                    $qString[] = $name . '=' . urlencode($val);
                 }
             } else {
-                $qString[] = $name . '=' . urlencode(utf8_encode($value));
+                $value = $this->isUtf8($value) ? $value : utf8_encode($value);
+                $qString[] = $name . '=' . urlencode($value);
             }
         }
         return implode('&', $qString);
@@ -420,5 +422,32 @@ class Services_GeoNames
         return array_keys($this->endpoints);
     }
     
+    // }}}
+    // isUtf8() {{{
+
+    /**
+     * Check if the given string is a UTF-8 string or an iso-8859-1 one.
+     *
+     * @param string $str The string to check
+     *
+     * @return boolean Wether the string is unicode or not
+     */
+    protected function isUtf8($str)
+    {
+        return (bool)preg_match(
+            '%^(?:
+                  [\x09\x0A\x0D\x20-\x7E]            # ASCII
+                | [\xC2-\xDF][\x80-\xBF]             # non-overlong 2-byte
+                |  \xE0[\xA0-\xBF][\x80-\xBF]        # excluding overlongs
+                | [\xE1-\xEC\xEE\xEF][\x80-\xBF]{2}  # straight 3-byte
+                |  \xED[\x80-\x9F][\x80-\xBF]        # excluding surrogates
+                |  \xF0[\x90-\xBF][\x80-\xBF]{2}     # planes 1-3
+                | [\xF1-\xF3][\x80-\xBF]{3}          # planes 4-15
+                |  \xF4[\x80-\x8F][\x80-\xBF]{2}     # plane 16
+            )*$%xs',
+            $str
+        );
+    }
+
     // }}}
 }

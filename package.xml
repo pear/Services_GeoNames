@@ -42,9 +42,9 @@ For more information please visit:
   <email>izimobil@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2010-04-10</date>
+ <date>2010-10-01</date>
  <version>
-  <release>1.0.0</release>
+  <release>1.0.1</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -53,8 +53,8 @@ For more information please visit:
  </stability>
  <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
  <notes>
-* fixed bug #17101: Unit tests fail (64 bit systems),
-* fixed package.xml to allow installation via pyrus.
+* Check if input is already utf8 encoded before encoding it (fixes bug #17876),
+* Corrected packaging issue (fixes bug #17914).
  </notes>
  <contents>
   <dir name="/">
@@ -100,6 +100,7 @@ For more information please visit:
    <file name="tests/test_siblings.phpt" role="test" />
    <file name="tests/test_srtm3.phpt" role="test" />
    <file name="tests/test_timezone.phpt" role="test" />
+   <file name="tests/test_utf8.phpt" role="test" />
    <file name="tests/test_weather.phpt" role="test" />
    <file name="tests/test_weathericao.phpt" role="test" />
    <file name="tests/test_wikipediaboundingbox.phpt" role="test" />
@@ -132,6 +133,7 @@ For more information please visit:
    <file name="tests/data/test_siblings.dat" role="test" />
    <file name="tests/data/test_srtm3.dat" role="test" />
    <file name="tests/data/test_timezone.dat" role="test" />
+   <file name="tests/data/test_utf8.dat" role="test" />
    <file name="tests/data/test_weather.dat" role="test" />
    <file name="tests/data/test_weathericao.dat" role="test" />
    <file name="tests/data/test_wikipediaboundingbox.dat" role="test" />
@@ -270,6 +272,24 @@ $geo = new Services_GeoNames();
 $geo->failoverServers[] = 'http://ws5.geonames.org';
 ?>
 ]]>
+   </notes>
+  </release>
+
+  <!-- version 1.0.0 -->
+  <release>
+   <date>2010-04-10</date>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+* fixed bug #17101: Unit tests fail (64 bit systems),
+* fixed package.xml to allow installation via pyrus.
    </notes>
   </release>
 

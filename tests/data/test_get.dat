@@ -1,0 +1,112 @@
+{
+  "alternateNames": [
+    {
+      "name": "Aarde",
+      "lang": "nl"
+    },
+    {
+      "name": "el món",
+      "lang": "ca"
+    },
+    {
+      "name": "el planeta",
+      "lang": "es"
+    },
+    {
+      "name": "Erde",
+      "lang": "de"
+    },
+    {
+      "name": "Föld",
+      "lang": "hu"
+    },
+    {
+      "name": "Globe",
+      "lang": "en"
+    },
+    {
+      "name": "Lurra",
+      "lang": "eu"
+    },
+    {
+      "name": "Maa",
+      "lang": "fi"
+    },
+    {
+      "name": "Mondo",
+      "lang": "eo"
+    },
+    {
+      "name": "Mundo",
+      "lang": "es"
+    },
+    {
+      "name": "Mundua",
+      "lang": "eu"
+    },
+    {
+      "name": "nuestro planeta",
+      "lang": "es"
+    },
+    {
+      "name": "Orbs",
+      "lang": "la"
+    },
+    {
+      "name": "Pamânt",
+      "lang": "ro"
+    },
+    {
+      "name": "Planeta Tierra",
+      "lang": "es"
+    },
+    {
+      "name": "Tero",
+      "lang": "eo"
+    },
+    {
+      "name": "Terra",
+      "lang": "ca"
+    },
+    {
+      "name": "Terra",
+      "lang": "it"
+    },
+    {
+      "name": "Terra",
+      "lang": "la"
+    },
+    {
+      "name": "Terre",
+      "lang": "fr"
+    },
+    {
+      "name": "Tierra",
+      "lang": "es"
+    },
+    {
+      "name": "Земля",
+      "lang": "ru"
+    }
+  ],
+  "countryName": "",
+  "adminCode1": "20",
+  "fclName": "parks,area, ...",
+  "lng": 0,
+  "adminName2": "",
+  "adminName3": "",
+  "fcodeName": "",
+  "adminName4": "",
+  "timezone": {
+    "dstOffset": 2,
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Zurich"
+  },
+  "fcl": "L",
+  "name": "Globe",
+  "fcode": "",
+  "geonameId": 6295630,
+  "lat": 0,
+  "population": 0,
+  "adminName1": "null.20"
+}

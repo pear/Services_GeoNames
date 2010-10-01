@@ -1,0 +1,18 @@
+{"geonames": [{
+  "countryName": "Germania",
+  "bBoxWest": 5.865638256073,
+  "currencyCode": "EUR",
+  "fipsCode": "GM",
+  "countryCode": "DE",
+  "isoNumeric": "276",
+  "capital": "Berlino",
+  "areaInSqKm": "357021.0",
+  "languages": "de",
+  "bBoxEast": 15.0398902893066,
+  "isoAlpha3": "DEU",
+  "continent": "EU",
+  "bBoxNorth": 55.0556411743164,
+  "geonameId": 2921044,
+  "bBoxSouth": 47.2757720947266,
+  "population": "82369000"
+}]}

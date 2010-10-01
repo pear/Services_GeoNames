@@ -1,0 +1,37 @@
+{"postalCodes": [
+  {
+    "postalCode": "8775",
+    "countryCode": "CH",
+    "lng": 9.0333333,
+    "placeName": "Luchsingen",
+    "lat": 46.9666667
+  },
+  {
+    "postalCode": "8773",
+    "countryCode": "CH",
+    "lng": 9.03666666,
+    "placeName": "Haslen GL",
+    "lat": 46.96333334
+  },
+  {
+    "postalCode": "8773",
+    "countryCode": "CH",
+    "lng": 9.03666666,
+    "placeName": "Haslen GL Fächer",
+    "lat": 46.96333334
+  },
+  {
+    "postalCode": "8775",
+    "countryCode": "CH",
+    "lng": 9.0333333,
+    "placeName": "Luchsingen-Hätzingen",
+    "lat": 46.95833335
+  },
+  {
+    "postalCode": "8774",
+    "countryCode": "CH",
+    "lng": 9.05,
+    "placeName": "Leuggelbach",
+    "lat": 46.9666667
+  }
+]}

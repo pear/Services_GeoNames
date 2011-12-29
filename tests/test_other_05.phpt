@@ -15,5 +15,6 @@ try {
 
 ?>
 --EXPECTF--
-Absolute URL required
-HTTP_Request2_Exception
+HTTP_Request2 needs an absolute HTTP(S) request URL, 'Some invalid url.../searchJSON?q=kjhkjhkjh' given
+HTTP_Request2_LogicException
+

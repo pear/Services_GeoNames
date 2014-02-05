@@ -109,7 +109,7 @@ class Services_GeoNames
      *
      * @var string $url
      */
-    public $url = 'http://ws.geonames.org';
+    public $url = 'http://api.geonames.org';
 
     /**
      * Array of failover servers.

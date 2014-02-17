@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "izimobil@gmail.com",
+            "name": "David Jean Louis",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Services_GeoNames": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Services_GeoNames",
+    "include-path": [
+        "./"
+    ],
+    "license": "MIT",
+    "name": "pear/services_geonames",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Services_GeoNames",
+        "source": "https://github.com/pear/Services_GeoNames"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
